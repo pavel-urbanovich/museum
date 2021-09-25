@@ -1,0 +1,27 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    }
+html {
+    width: 1920px;
+}
+/* start header*/
+.container {
+    margin: 0 auto;
+    width: 1440px;
+}
+
+.header {
+    height: 150px;
+    background-color: black;
+}
+.logo_item {
+    background-image: url(/museum/assets/svg/Vector.svg);
+    width: 49px;
+    height: 26px;
+}
+
+
+
