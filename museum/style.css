@@ -23,6 +23,11 @@ html {
     background-image: url(/museum/assets/svg/Vector.svg);
     width: 49px;
     height: 26px;
+    opacity: 0.7;
+}
+.logo_item:hover {
+    opacity: 1;
+    cursor: pointer;
 }
 
 .header_container {
@@ -45,10 +50,13 @@ html {
     font-family: 'Forum';
     letter-spacing: 5px;
     font-weight: 400;
+    opacity: 0.5;
 }
 
 .logo_name:hover {
     text-decoration: underline;
+    opacity: 1;
+    cursor: pointer;
 }
 
 .navigation {
