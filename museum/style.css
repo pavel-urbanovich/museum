@@ -7,6 +7,8 @@
 html {
     width: 1920px;
 }
+
+
 /* start header*/
 .container {
     margin: 0 auto;
@@ -23,5 +25,54 @@ html {
     height: 26px;
 }
 
+.header_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+}
 
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.logo_name {
+    color: white;
+    text-transform: uppercase;
+    padding-left: 25px;
+    font-size: 28px;
+    font-family: 'Forum';
+    letter-spacing: 5px;
+    font-weight: 400;
+}
+
+.logo_name:hover {
+    text-decoration: underline;
+}
+
+.navigation {
+    width: 775px;
+}
+
+.naigation_decoration {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+ul li a {
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    opacity: 0.5;
+    font-weight: 200;
+}
+ul li a:hover {
+    opacity: 1;
+}
 
