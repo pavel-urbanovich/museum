@@ -117,7 +117,7 @@ h1 {
     top: 300px;
 }
 
-p {
+.title_description {
     font-family: 'Roboto';
     color: #FFFFFF;
     font-weight: 300;
@@ -245,7 +245,7 @@ h2 {
     letter-spacing: 5px;
     text-transform: uppercase;
     padding-top: 75px;
-    padding-bottom: 10px;
+    padding-bottom: 25px;
 }
 
 .virtual_tour_container {
@@ -331,4 +331,66 @@ h2 {
 }
 .tour_info {
     padding-bottom: 75px;
+}
+/*Start section Picture Explore*/
+.explore {
+    width: 1920px;
+    height: 865px;
+    background-color: #030303;
+}
+
+.description {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 38px;
+    color: #FFFFFF;
+    padding-bottom: 25px;
+}
+.section_title {
+    color:#FFFFFF;
+
+}
+.picture_line {
+    border-top: 3px solid #710707;
+    width: 660px;
+    padding-bottom: 75px;
+} 
+
+.picture_description {
+    padding-right: 60px;
+}
+.picture_wrapper {
+    display: flex;
+}
+.explore_image {
+    display: flex;
+    width: 720px;
+    height: 700px;
+    padding-top: 90px;
+}
+.explore_image_part1 {
+    background-image: url(/museum/assets/img/Picture_part2.jpg);
+    background-repeat: no-repeat;
+    width: 720px;
+    height: 700px;
+}
+.explore_slider {
+    background-image: url(/museum/assets/img/explore\ slider.png);
+    background-repeat: no-repeat;
+    width: 39px;
+    height: 700px;
+    position: absolute;
+    left: 1382px;
+    z-index: 1;
+}
+.explore_image_part2 {
+    background-image: url(/museum/assets/img/Picture_part\ 1.jpg);
+    background-repeat: no-repeat;
+    width: 440px;
+    height: 700px;
+    position: absolute;
+}
+.color_text {
+    color: #CAAA7D;
 }
