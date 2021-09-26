@@ -262,7 +262,38 @@ h2 {
     background-repeat: no-repeat;
     width: 440px;
     height: 285px;
+}
 
+.image_description_denon {
+    background-image: url(/museum/assets/img/Denone.jpg);
+    background-repeat: no-repeat;
+    width: 440px;
+    height: 285px;
+}
+
+.image_description_colonnade {
+    background-image: url(/museum/assets/img/cononade.jpg);
+    background-repeat: no-repeat;
+    width: 440px;
+    height: 285px;
+}
+.image_description_greek {
+    background-image: url(/museum/assets/img/greek.jpg);
+    background-repeat: no-repeat;
+    width: 440px;
+    height: 285px;
+}
+.image_description_mona {
+    background-image: url(/museum/assets/img/mona_lisa.jpg);
+    background-repeat: no-repeat;
+    width: 440px;
+    height: 285px;
+}
+.image_description_night {
+    background-image: url(/museum/assets/img/night.jpg);
+    background-repeat: no-repeat;
+    width: 440px;
+    height: 285px;
 }
 .tour_title {
     font-family: 'Forum';
