@@ -82,7 +82,15 @@ ul li a {
 }
 ul li a:hover {
     opacity: 1;
+    color: #9D8665;
+    
 }
+ul li a:active {
+    opacity: 1;
+    color: #7E6C51;
+       
+}
+
 /* Start section Welcome */
 
 .welcome {
@@ -131,14 +139,14 @@ p {
     padding: 0;
     font-size: 22px;
     background-color: #710707;
-    opacity: 0.7;
     border: none;
     border-radius: 10px;
     cursor: pointer;
     
 }
 .welcome_button:hover {
-    opacity: 1;
+    background: #9D8665;
+
 }
 
 .image {
@@ -187,10 +195,15 @@ p {
     width: 16px;
     height: 16px;
     background-color:#FFFFFF;
+    cursor: pointer;
 }
 .carousel_item_1 {
     background-color: #D2B183;
-    ;
+    
+}
+.carousel_item_1:hover {
+    background-color: #9D8665;
+
 }
 
 .arrows {
@@ -203,11 +216,88 @@ p {
     background-repeat: no-repeat;
     width: 30px;
     height: 8px;
+    cursor: pointer;
 }
+.arrows_item_1:hover {
+    background-image: url(/museum/assets/img/arrow.png);
+    cursor: pointer;
+}
+
 .arrows_item_2 {
     transform: rotate(180deg);
     
 }
 .arrows_item {
     width: 20px;
+}
+
+/* Start section Virtual Tour */
+.virual_tour {
+   background-color: white;
+}
+
+h2 {
+    font-family: 'Forum';
+    font-size: 80px;
+    font-weight: normal;
+    color: #9D8665;
+    line-height: 90px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    padding-top: 75px;
+    padding-bottom: 10px;
+}
+
+.virtual_tour_container {
+    border-top: 3px solid #710707;
+    padding-top: 75px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.image_description {
+    background-image: url(/museum/assets/img/Rectangle.jpg);
+    background-repeat: no-repeat;
+    width: 440px;
+    height: 285px;
+
+}
+.tour_title {
+    font-family: 'Forum';
+    font-size: 32px;
+    font-weight: normal;
+    color: #000000;
+    line-height: 35px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+.line {
+    border-top: 2px solid #710707;
+    width: 300px;
+
+}
+.tour_description_method {
+    font-family: 'Roboto';
+    font-weight: 200;
+    font-size: 22px;
+    letter-spacing: 2px;
+    line-height: 26px;
+    color: #000000;
+    padding: 10px 0 0 0;
+}
+
+.tour_description_panorama {
+    font-family: 'Roboto';
+    font-weight: 200;
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 21px;
+    color: #000000;
+    padding: 10px 0 0 0;
+}
+.tour_info {
+    padding-bottom: 75px;
 }
