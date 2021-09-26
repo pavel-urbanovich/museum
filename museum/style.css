@@ -83,4 +83,63 @@ ul li a {
 ul li a:hover {
     opacity: 1;
 }
+/* Start section Welcome */
 
+.welcome {
+    height: 842px;
+    background: #030303;
+    ;
+
+}
+.welcome_description {
+    padding-top: 150px;
+}
+
+h1 {
+    font-family: 'Forum';
+    font-size: 80px;
+    font-weight: normal;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 90px;
+}
+
+p {
+    font-family: 'Roboto';
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 33px;
+    letter-spacing: 2px;
+    padding-top: 25px;
+    padding-bottom: 75px;
+}
+
+.welcome_button {
+    font-family: 'Roboto';
+    font-weight: 300;
+    letter-spacing: 2px;
+    line-height: 26px;
+    color: #FFFFFF;
+    width: 360px;
+    height: 75px;
+    padding: 0;
+    font-size: 22px;
+    background-color: #710707;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+.image {
+    background-image: url(/museum/assets/img/1.png);
+    background-repeat: no-repeat;
+    width: 1000px;
+    height: 810px;
+}
+
+.background_container {
+    display: flex;
+}
