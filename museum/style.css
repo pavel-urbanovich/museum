@@ -86,7 +86,7 @@ ul li a:hover {
 /* Start section Welcome */
 
 .welcome {
-    height: 842px;
+    height: 810px;
     background: #030303;
     ;
 
@@ -131,10 +131,14 @@ p {
     padding: 0;
     font-size: 22px;
     background-color: #710707;
+    opacity: 0.7;
     border: none;
     border-radius: 10px;
     cursor: pointer;
     
+}
+.welcome_button:hover {
+    opacity: 1;
 }
 
 .image {
@@ -146,4 +150,64 @@ p {
 
 .background_container {
     display: flex;
+}
+
+/* Start slider */
+.slider {
+    width: 600px;
+    height: 120px;
+    position: absolute;
+    top: 840px;
+    left: 1080px;
+    background: #030303;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 74px 0 74px;
+}
+.slider_numbers {
+    display: flex;
+    color: white;
+    align-items: center;
+    font-family: 'Roboto';
+    font-size: 22px;
+}
+.number {
+    padding-right: 25px;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+
+.carousel {
+    display: flex;
+    width: 180px;
+    justify-content: space-between;
+    align-items: center;
+}
+.carousel_item_1, .carousel_item_2, .carousel_item_3, .carousel_item_4, .carousel_item_5 {
+    width: 16px;
+    height: 16px;
+    background-color:#FFFFFF;
+}
+.carousel_item_1 {
+    background-color: #D2B183;
+    ;
+}
+
+.arrows {
+    display: flex;
+    align-items: center;
+    width: 80px;
+}
+.arrows_item_1, .arrows_item_2 {
+    background-image: url(/museum/assets/img/←.png);
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 8px;
+}
+.arrows_item_2 {
+    transform: rotate(180deg);
+    
+}
+.arrows_item {
+    width: 20px;
 }
