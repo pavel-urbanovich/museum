@@ -93,6 +93,7 @@ ul li a:hover {
 }
 .welcome_description {
     padding-top: 150px;
+    padding-top: 355px;
 }
 
 h1 {
@@ -103,6 +104,9 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 5px;
     line-height: 90px;
+    position: absolute;
+    width: 593px;
+    top: 300px;
 }
 
 p {
